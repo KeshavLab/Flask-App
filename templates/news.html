@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cricket News</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Latest Cricket News</h2>
+        <ul style="text-align: left;">
+            <li>Kohli scores century in warm-up match</li>
+            <li>India announces T20 World Cup squad</li>
+            <li>Jadeja ruled out due to injury</li>
+            <li>BCCI announces new jersey design</li>
+        </ul>
+        <br>
+        <a href="{{ url_for('home') }}">Back to Home</a>
+    </div>
+</body>
+</html>
